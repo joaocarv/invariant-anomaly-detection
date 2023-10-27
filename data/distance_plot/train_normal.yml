@@ -1,0 +1,48 @@
+correlated factors:
+- shape
+- hue
+- lightness
+- position
+- scale
+- texture
+modes:
+- ratio: 0.5
+  specification:
+    objs:
+    - category: train
+      hue:
+      - red
+      lightness:
+      - brighter
+      position:
+      - upper center
+      scale:
+      - larger
+      shape:
+      - 4
+      texture:
+      - wood
+    tag: 1
+- ratio: 0.5
+  specification:
+    objs:
+    - category: train
+      hue:
+      - green
+      lightness:
+      - bright
+      position:
+      - center center
+      scale:
+      - large
+      shape:
+      - 4
+      texture:
+      - tiles
+    tag: 2
+samples: 50
+shape:
+- 1
+- 256
+- 256
+task: shape

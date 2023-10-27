@@ -1,0 +1,6 @@
+use_anomaly_map:
+  - true
+  - false
+backbone: 
+  - wide_resnet50_2
+  - vgg19_bn

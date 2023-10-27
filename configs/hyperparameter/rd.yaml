@@ -1,0 +1,6 @@
+backbone:
+  - resnet18
+  - resnet34
+  - resnet50
+  - resnet101
+  - wide_resnet50_2

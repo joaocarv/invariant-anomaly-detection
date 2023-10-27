@@ -1,0 +1,4 @@
+backbone:
+  - resnet18
+  - resnet50
+  - resnet101

@@ -1,0 +1,480 @@
+- hue:
+  - magenta
+  - green
+  - yellow
+  lightness:
+  - brighter
+  - darker
+  - dark
+  position:
+  - center right
+  - upper center
+  - upper left
+  scale:
+  - larger
+  - smaller
+  - small
+  shape:
+  - 5
+  - 2
+  - 0
+  texture:
+  - tiles
+  - lava
+  - bricks
+- hue:
+  - magenta
+  - yellow
+  - red
+  lightness:
+  - darker
+  - brighter
+  - dark
+  position:
+  - lower right
+  - center left
+  - upper right
+  scale:
+  - larger
+  - large
+  - normal
+  shape:
+  - 8
+  - 6
+  - 1
+  texture:
+  - wood
+  - tiles
+  - carpet
+- hue:
+  - red
+  - blue
+  - magenta
+  lightness:
+  - brighter
+  - dark
+  - bright
+  position:
+  - upper right
+  - upper left
+  - center left
+  scale:
+  - normal
+  - large
+  - small
+  shape:
+  - 2
+  - 4
+  - 3
+  texture:
+  - wood
+  - carpet
+  - lava
+- hue:
+  - cyan
+  - magenta
+  - green
+  lightness:
+  - brighter
+  - bright
+  - dark
+  position:
+  - lower center
+  - center left
+  - upper left
+  scale:
+  - larger
+  - normal
+  - small
+  shape:
+  - 0
+  - 4
+  - 1
+  texture:
+  - lava
+  - wood
+  - carpet
+- hue:
+  - red
+  - yellow
+  - cyan
+  lightness:
+  - bright
+  - darker
+  - dark
+  position:
+  - lower center
+  - upper center
+  - center left
+  scale:
+  - larger
+  - large
+  - smaller
+  shape:
+  - 1
+  - 8
+  - 6
+  texture:
+  - carpet
+  - tiles
+  - bricks
+- hue:
+  - blue
+  - yellow
+  - green
+  lightness:
+  - dark
+  - darker
+  - brighter
+  position:
+  - lower center
+  - center left
+  - upper left
+  scale:
+  - large
+  - smaller
+  - normal
+  shape:
+  - 3
+  - 5
+  - 8
+  texture:
+  - bricks
+  - lava
+  - carpet
+- hue:
+  - blue
+  - green
+  - red
+  lightness:
+  - dark
+  - brighter
+  - darker
+  position:
+  - lower right
+  - upper center
+  - center right
+  scale:
+  - smaller
+  - large
+  - small
+  shape:
+  - 7
+  - 8
+  - 6
+  texture:
+  - wood
+  - lava
+  - tiles
+- hue:
+  - red
+  - cyan
+  - magenta
+  lightness:
+  - darker
+  - bright
+  - dark
+  position:
+  - lower left
+  - center center
+  - lower right
+  scale:
+  - small
+  - smaller
+  - normal
+  shape:
+  - 2
+  - 6
+  - 4
+  texture:
+  - tiles
+  - lava
+  - bricks
+- hue:
+  - yellow
+  - red
+  - green
+  lightness:
+  - bright
+  - dark
+  - darker
+  position:
+  - lower right
+  - center center
+  - center left
+  scale:
+  - small
+  - normal
+  - larger
+  shape:
+  - 8
+  - 4
+  - 0
+  texture:
+  - lava
+  - bricks
+  - tiles
+- hue:
+  - green
+  - magenta
+  - red
+  lightness:
+  - darker
+  - dark
+  - brighter
+  position:
+  - center right
+  - upper left
+  - upper center
+  scale:
+  - larger
+  - normal
+  - small
+  shape:
+  - 3
+  - 2
+  - 4
+  texture:
+  - lava
+  - tiles
+  - carpet
+- hue:
+  - magenta
+  - red
+  - cyan
+  lightness:
+  - dark
+  - brighter
+  - darker
+  position:
+  - lower left
+  - lower center
+  - upper right
+  scale:
+  - small
+  - large
+  - smaller
+  shape:
+  - 3
+  - 7
+  - 2
+  texture:
+  - tiles
+  - lava
+  - bricks
+- hue:
+  - blue
+  - green
+  - red
+  lightness:
+  - darker
+  - brighter
+  - bright
+  position:
+  - center center
+  - upper right
+  - lower center
+  scale:
+  - large
+  - smaller
+  - larger
+  shape:
+  - 7
+  - 4
+  - 5
+  texture:
+  - tiles
+  - lava
+  - wood
+- hue:
+  - cyan
+  - blue
+  - yellow
+  lightness:
+  - dark
+  - brighter
+  - bright
+  position:
+  - upper center
+  - upper right
+  - center left
+  scale:
+  - small
+  - large
+  - larger
+  shape:
+  - 9
+  - 5
+  - 2
+  texture:
+  - wood
+  - tiles
+  - bricks
+- hue:
+  - green
+  - yellow
+  - cyan
+  lightness:
+  - dark
+  - brighter
+  - bright
+  position:
+  - center left
+  - lower left
+  - upper center
+  scale:
+  - larger
+  - smaller
+  - normal
+  shape:
+  - 5
+  - 7
+  - 2
+  texture:
+  - wood
+  - lava
+  - bricks
+- hue:
+  - blue
+  - yellow
+  - red
+  lightness:
+  - darker
+  - dark
+  - bright
+  position:
+  - upper right
+  - upper left
+  - center center
+  scale:
+  - smaller
+  - larger
+  - small
+  shape:
+  - 4
+  - 3
+  - 1
+  texture:
+  - bricks
+  - tiles
+  - carpet
+- hue:
+  - red
+  - green
+  - yellow
+  lightness:
+  - bright
+  - dark
+  - darker
+  position:
+  - upper right
+  - upper center
+  - lower center
+  scale:
+  - large
+  - smaller
+  - small
+  shape:
+  - 5
+  - 3
+  - 8
+  texture:
+  - wood
+  - lava
+  - bricks
+- hue:
+  - cyan
+  - blue
+  - magenta
+  lightness:
+  - dark
+  - bright
+  - brighter
+  position:
+  - center right
+  - upper center
+  - center left
+  scale:
+  - smaller
+  - normal
+  - large
+  shape:
+  - 3
+  - 8
+  - 1
+  texture:
+  - bricks
+  - carpet
+  - wood
+- hue:
+  - yellow
+  - cyan
+  - magenta
+  lightness:
+  - brighter
+  - bright
+  - darker
+  position:
+  - lower right
+  - lower center
+  - upper right
+  scale:
+  - large
+  - small
+  - smaller
+  shape:
+  - 2
+  - 3
+  - 1
+  texture:
+  - wood
+  - lava
+  - tiles
+- hue:
+  - yellow
+  - cyan
+  - red
+  lightness:
+  - darker
+  - brighter
+  - dark
+  position:
+  - lower right
+  - lower left
+  - center left
+  scale:
+  - smaller
+  - small
+  - normal
+  shape:
+  - 4
+  - 5
+  - 1
+  texture:
+  - lava
+  - wood
+  - tiles
+- hue:
+  - yellow
+  - blue
+  - magenta
+  lightness:
+  - brighter
+  - dark
+  - darker
+  position:
+  - center left
+  - upper center
+  - upper left
+  scale:
+  - smaller
+  - normal
+  - small
+  shape:
+  - 5
+  - 9
+  - 0
+  texture:
+  - tiles
+  - bricks
+  - wood

@@ -1,0 +1,32 @@
+format: wilds
+name: camelyon17
+grouper:
+  groupby_fields:
+    - hospital
+train_batch_size: 16
+eval_batch_size: 16
+num_workers: 0
+task: classification
+transform_config:
+  train: configs/preprocess/transform2.yaml
+  eval: configs/preprocess/transform2.yaml
+test_split_mode: "from_dir"
+normal_ys:
+  - 0
+anomaly_ys:
+  - 1
+subsample_ratio:
+  train: 1.0
+  val: 1.0
+  test: 1.0
+splits:
+  train: train
+  val: all
+  test: test
+tiling:
+  apply: false
+  tile_size: null
+  stride: null
+  remove_border_count: 0
+  use_random_tiling: False
+  random_tile_count: 16

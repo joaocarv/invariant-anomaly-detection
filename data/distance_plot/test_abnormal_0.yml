@@ -1,0 +1,36 @@
+correlated factors:
+- shape
+- hue
+- lightness
+- position
+- scale
+- texture
+modes:
+- ratio: 1.0
+  specification:
+    objs:
+    - category: test
+      hue:
+      - green
+      - red
+      lightness:
+      - brighter
+      - bright
+      position:
+      - center center
+      - upper center
+      scale:
+      - large
+      - larger 
+      shape:
+      - 9
+      texture:
+      - tiles
+      - wood
+    tag: ic
+samples: 50
+shape:
+- 1
+- 256
+- 256
+task: shape

@@ -1,0 +1,30 @@
+name: distance_plot
+format: FolderDg                 # For mead just use folderdg
+root: data/mnist/distance_plot/dataset # path to the dataset root.
+                                 # if the dataset needs to be generated, it should look like path_to_env_config/dataset
+                                 # the datasets would then be generated using env configs in path_to_env_config
+normal_dir: train_normal/images # name of the folder containing normal images.
+abnormal_dir: test_abnormal_0/images # name of the folder containing abnormal images.
+normal_test_dir: test_normal_0/images # name of the folder containing normal test images.
+task: classification # classification or segmentation
+extensions: null
+test_split_ratio: 0.0 # ratio of the normal images that will be used to create a test split
+train_batch_size: 32
+eval_batch_size: 32
+inference_batch_size: 32
+fiber_batch_size: 64
+num_workers: 0
+normalization: none
+transform_config:
+  train: configs/preprocess/transform3.yaml
+  eval: configs/preprocess/transform3.yaml
+image_size: 256  # if transform_config not given, images would be resized with this
+val_split_mode: "same_as_test"
+test_split_mode: "from_dir"
+tiling:
+  apply: false
+  tile_size: null
+  stride: null
+  remove_border_count: 0
+  use_random_tiling: False
+  random_tile_count: 16

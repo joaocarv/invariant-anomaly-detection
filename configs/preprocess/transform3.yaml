@@ -1,0 +1,29 @@
+transform:
+  __class_fullname__: Compose
+  additional_targets: {}
+  bbox_params: null
+  keypoint_params: null
+  p: 1.0
+  transforms:
+  - __class_fullname__: Resize
+    always_apply: true
+    height: 224
+    interpolation: 1
+    p: 1
+    width: 224
+  - __class_fullname__: Normalize
+    always_apply: true
+    max_pixel_value: 255.0
+    mean:
+    - 0.0
+    - 0.0
+    - 0.0
+    p: 1.0
+    std:
+    - 0.5
+    - 0.5
+    - 0.5
+  - __class_fullname__: ToTensorV2
+    always_apply: true
+    p: 1.0
+    transpose_mask: false
